@@ -4,8 +4,6 @@ A repo for the first production version of jaxx.io, the home website of Jaxx Lib
 
 Unlike [Jaxx_Revolutions_1](https://github.com/masonmedia/jaxx_revolutions_1), my original, animated version of the same site, the production version was redacted, removing homepage banner animation which included: a an animated SVG stroke-drawing effect of the Jaxx Liberty logo (using vivus.js), which then was filled with the logo's original colors, and then individual letters exploded out of the screen, along with a slower general progression between entrances/exits of the timeline elements.
 
-The redaction made the production site timeline move much faster. Management decided the original animated elegance was both unnecessary, and somehow impeded users from "quickly getting what they want". Sadly this aesthetic and control from the top down suffocated the site and its 3 other successors.
-
 ## **Layout and Frameworks**
 
 The site uses Bootstrap 4.1. Layout uses native Bootstrap classes, flexbox, and 'functional' css.
