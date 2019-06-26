@@ -1,0 +1,28 @@
+[
+    {
+        "criticality": "important",
+		"title": "Jaxx 1.2 Release Notes",
+        "heading": "We're proud to present Jaxx 1.2, our newest version! Below is a list of new features, changes and bug fixes.",
+        "version": "1",
+        "description": 
+        [   
+            {
+                "element": "inputNewFeatures",
+                "title": "New Features",
+                "details":
+                    "<ul><li>Our backend infrastructure went through a complete overhaul making Jaxx faster, far more efficient and accurate.</li><li>We have a new wallet initialization process for existing users that pulls your balance and transaction history. This is where our new infrastructure comes into play so you will find Jaxx to be much faster after it has initialized. (If you have a lot of transactions, you should be on WiFi because it may take a while to load.)</li><li>We have a new onboarding process that allows users to customize preferences upon creation and restoration of a Jaxx wallet.</li><li>We are introducing Jaxx Tips and Trixx to help onboard new users and remind existing users of some of our tools and features. This will appear on the main interface when you create a new wallet or restore your wallet.</li><li>You can now import paper wallets for Dash, Ethereum Classic, Litecoin, and Zcash.</li><li>You can now adjust the Bitcoin mining fee in Settings which improves the calculation of your max spendable.</li><li>There are now confirmation messages for payments that you send and receive so you can better track your transactions.</li><li>You can now copy the recipient's address in the Transaction History.</li></ul>"
+            }, 
+            {   
+                "element": "inputChanges",
+                "title": "Changes",
+                "details": 
+                    "<ul><li>Our backend infrastructure allows for API calls to be made in a more efficient way, making the app faster.</li><li>The camera button has been replaced with a QR code icon in the Receiving Address field.</li><li>All of your addresses / keys in Display Private Keys now show their individual balance.</li><li>You can now copy your individual public address and private key instead of selecting all to export.</li><li>We made a few adjustments to our interface. You might notice that Foxy is now visible on the main screen allowing you to convert between coins that much easier.</li><li>You can find your Backup Phrase in Tools -> Backup Wallet. There will be two options for you: Backup Wallet & View Backup Phrase.</li><li>We made slight text changes throughout the app so the language is more cohesive.</li><li>All of our screens and pop up messages have been redesigned. We not only wanted to make the app work and look better, we want you to know what is going on with your wallet at all times.</li><li>All notifications slide up from the bottom of the screen making them more visible for you. They have also been made brighter and colourful so you can identify error / warning messages from confirmation messages!</li><li>The PIN pad has been redesigned and the responsiveness of our security features have been enhanced.</li><li>We removed the ETH / ETC Split Tool.</li><li>We removed support for the DAO.</li><li>You can find the description of each Menu item by clicking on the info button. Part of the Jaxx redesign!</li></ul>"
+            }, 
+            {
+                "element":"inputBugFixes",
+                "title": "Bug Fixes",
+                "details": "<ul><li>The Transfer Paper Wallet .:Spinner:. error has been fixed.</li><li>Swiping Menu issues have been resolved.</li><li>Various QR code scanning issues have been resolved.</li><li>The BTC max spendable issue has now been fixed. You can fully send your max without leaving any dust.</li><li>We optimized our ShapeShift feature and fixed a few bugs.</li><li>We fixed a minor bug with the coin carousel that some users were experiencing.</li><li>ETC transactions are no longer labeled as ETH.</li><li>Scanning an ETC QR code no longer takes you to your ETH wallet.</li><li>The coin carousel arrows facing the wrong way has been fixed.</li></ul>"
+            }
+        ]
+	}
+]

@@ -1,0 +1,1003 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Jaxx Liberty | Support - jquery mobile</title>
+        <!--core meta data-->
+        <meta name="description" content="The leading Multi-Platform Wallet created by Anthony Di Iorio, co-founder of Ethereum and founder and CEO of Decentral and Jaxx">
+        <meta name="keywords" content="jaxx liberty,jaxx,decentral">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="manifest" href="site.webmanifest">
+        <!--icons-->
+        <link rel="apple-touch-icon" href="icon.png">
+        <link rel="shortcut icon" href="favicon.ico">
+        <!-- Place favicon.ico in the root directory -->
+        <!-- Open Graph Meta Data -->
+        <meta property="og:description" content="The leading Multi-Platform Wallet created by Anthony Di Iorio, co-founder of Ethereum and founder and CEO of Decentral and Jaxx">
+        <meta property="og:image" content="https://www.jaxx.io/img/jaxx-banner-ss.jpg">
+        <meta property="og:site_name" content="jaxx.io">
+        <meta property="og:title" content="jaxx.io">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://jaxx.io">
+        <!-- Twitter Card Meta Data -->
+        <meta name="twitter:widgets:link-color" content="#ff6902">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="https://jaxx.io">
+        <meta name="twitter:creator" content="Decentral">
+        <meta name="twitter:title" content="jaxx.io">
+        <meta name="twitter:description" content="The leading Multi-Platform Wallet created by Anthony Di Iorio, co-founder of Ethereum and founder and CEO of Decentral and Jaxx">
+        <meta name="twitter:image" content="https://www.jaxx.io/img/jaxx-banner-ss.jpg">
+        <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Oswald:300,500,700" rel="stylesheet">
+        <!--styles-->
+        <link rel="stylesheet" href="/css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/animate.min.css">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/normalize.min.css">
+        <link rel="stylesheet" href="/css/main.min.css">
+        <!--jquery mobile-->
+        <link rel="stylesheet" href="/css/jquery.mobile-1.4.5.min.css" />
+        <script src="/js/jquery.js"></script>
+        <script src="/js/jquery.mobile-1.4.5.min.js"></script>   
+       
+        <!--cookies banner-->
+        <link rel="stylesheet" href="/js/cookieconsent.min.css">
+        <script>            
+            window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+              "palette": {
+                "popup": {
+                  "background": "#eb6c44",
+                  "text": "#ffffff"
+                },
+                "button": {
+                  "background": "transparent",
+                  "text": "#f5d948",
+                  "border": "#f5d948"
+                }
+              },
+                "content": {
+                "message": "Like most websites, we use analytics cookies to understand how this site is used — as long as your browser is set to accept them.",
+                "dismiss": "Start exploring",
+                "link": "Find out more.",
+                "href": "https://jaxx.io/thirdparties-current.html"
+              }
+            })});
+        </script>
+        <!-- Start of decentral Zendesk Widget script -->
+        <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=1511d491-71d2-4a00-ab84-5d6b388b482d"> </script>
+        <!-- End of decentral Zendesk Widget script -->
+        
+        <style>
+            body, input, select, textarea, button, .ui-btn {
+                font-size: 1em;
+                line-height: 1.3;
+                 font-family: inherit; 
+            }
+            .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+                background-color: #f9f9f9;
+                border-color: #bbb;
+                color: #333;
+                color: inherit;
+                text-shadow: none;
+            }
+/*            remove text shadow*/
+            .ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+                background-color: #e9e9e9;
+                border-color: #ddd;
+                color: #333;
+                 text-shadow: none; 
+                font-weight: 700;
+            }
+            /* buttons*/
+            .ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
+                 color: inherit;
+                font-weight: 300;
+            }
+            .ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a {
+                color: inherit;
+                font-weight: 300;
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <!--nav-->
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <a class="navbar-brand animsition-link" href="/index.html" rel="external">
+            <img class="jaxx-navbar-brand" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="Jaxx Liberty">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <img class="jaxx-mobile-menu" src="/img/jaxx-menu-orange.png" alt="Jaxx Liberty Menu">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/features.html" rel="external">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/downloads.html" rel="external" onclick="googleAnalyticsTrigger('Downloads_Page', 'Menu')">Download</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/security.html" rel="external">Security</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/community.html" rel="external">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://blog.jaxx.io/" rel="external" target="_blank">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/support.html" rel="external">Support</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--end nav-->  
+        
+        <!-- Support Home -->
+        
+        <div data-role="page" id="home" class="p-0 m-0">
+            <div data-role="header">
+                <div class="jumbotron jumbotron-fluid bg-img-banner-support min-50 d-flex flex-column justify-content-center align-items-center text-center text-light p-5 mb-0">
+                    <img class="jaxx-navbar-brand mt-5 mb-1" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
+                    <h1 class="section-title x-bold m-0">Jaxx Liberty Support</h1>
+                    <hr class="w-25 bg-white">
+                    <h2 class="site-sub-title">Welcome to the official Jaxx Liberty support page</h2>
+                </div>
+            </div><!-- /header -->
+            <div role="main" class="ui-content p-0 m-0">
+                <div class="container-fluid bg-img-downloads p-0">
+                    <div class="row p-5">
+                        <div class="col-lg-12 border bg-light p-4">
+                            <p class="small orange text-uppercase mb-0">Official Jaxx Liberty Support</p>
+                            <h2 class="section-title">Welcome</h2>
+                            <p class="border-top pt-2">We're here to answer all your questions. From our extensive FAQ page to help guidelines, most asked questions, and community support, our <span class="orange font-weight-bold">User Success Team</span> offers 24-hour free support through our written channels. Our average response time is 2 hours (a high ticket volume may impact that). See below for details and more information. </p>
+                        </div>
+                        <div class="col-lg-6 border bg-light p-4">
+                            <p class="small orange text-uppercase mb-0">Getting started</p>
+                            <h2 class="section-title">Help Guidelines</h2>
+                            <p class="border-top pt-2">The <span class="orange font-weight-bold">Jaxx Liberty</span> User Success Team is here to help our customers under all circumstances. Please check out our Help Guidelines for details on using our support resources, and for the best way to submit a ticket. It's the perfect place to start your journey.</p>
+                            <a class="btn btn-lg btn-outline-orange" href="#helpguidelines" data-transition="none">First Steps</a>
+                        </div>
+                        <div class="col-lg-6 border bg-light p-4">
+                            <p class="small orange text-uppercase mb-0">Jaxx Liberty Most Asked Questions</p>
+                            <h2 class="section-title">FAQ</h2>
+                            <p class="border-top pt-2">Many issues are common among users and you can often find a solution to your problem by using our FAQ page. Check here to find your answer online first before submitting a ticket.</p>
+                            <a class="btn btn-lg btn-outline-orange" href="#faq">FAQ</a>
+                        </div>
+                        <div class="col-lg-6 border bg-light p-4">
+                            <p class="small orange text-uppercase mb-0">Explore our library of video tutorials</p>
+                            <h2 class="section-title">Tutorials</h2>
+                            <p class="border-top pt-2">Persue our extensive and developing library of video tutorials on everything from installation to how-tos, app specs, features and more.</p>
+                            <a class="btn btn-lg btn-outline-orange" href="#tutorials">Tutorials</a>
+                        </div>
+                        <div class="col-lg-6 border bg-light p-4">
+                            <p class="small orange text-uppercase mb-0">Check out our social channels</p>
+                            <h2 class="section-title">CONNECT</h2>
+                            <p class="border-top pt-2">Check out our Twitter Support channel for insight into user experiences, fixes to common problems, and get support from fellow users.</p>
+                            <a href="https://twitter.com/Jaxx_Support" target="_blank" rel="external"><i class="fa fa-twitter orange pl-0 pt-0 display-4"></i></a>
+                            <a href="https://www.facebook.com/JaxxWallet" target="_blank" rel="external"><i class="fa fa-facebook orange pl-0 pt-0 display-4"></i></a>
+                            <a href="https://www.instagram.com/jaxx_io/" target="_blank" rel="external"><i class="fa fa-instagram orange pl-0 pt-0 display-4"></i></a>
+                        </div>
+<!--
+                        <div class="col-lg-6 border bg-light p-4">
+                            <p class="small orange text-uppercase mb-0">Check out our social channels</p>
+                            <h2 class="section-title">Twitter Support</h2>
+                            <p class="border-top pt-2">Check out our Twitter Support channel for insight into user experiences, fixes to common problems, and get support from fellow users.</p>
+                            twitter embed
+                            <a class="twitter-timeline" href="https://twitter.com/Jaxx_Support?ref_src=twsrc%5Etfw" data-tweet-limit="1" data-chrome="noheader nofooter">Tweets by Jaxx_Support</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+-->
+                    </div><!--end row-->
+                </div><!-- /container-->
+            </div><!-- /content -->
+            <!--footer-->
+            <div data-role="footer" class="row d-flex flex-wrap bg-orange multidevice-outline text-light pt-3 min-25 border-0">
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#home"><p class="border-bottom pb-3 font-weight-bold skew">Support Home</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#helpguidelines"><p class="border-bottom pb-3 font-weight-bold skew">Help Guidelines</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#faq"><p class="border-bottom pb-3 font-weight-bold skew">FAQ</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#tutorials"><p class="border-bottom pb-3 font-weight-bold skew">Tutorials</p></a>
+                </div>
+            </div>
+            <div class="row d-flex copyright">
+                <div class="col-sm-12 d-flex justify-content-center text-center pb-3 pt-0 navy">
+                    <p class="font-weight-bold mb-0"><a class="font-weight-bold" href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Support_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made with love in Canada</p>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+        <!-- Page 2: Help Guidelines -->
+        
+        <div data-role="page" id="helpguidelines">
+            <div data-role="header" class="border-0">
+                <div class="jumbotron jumbotron-fluid min-50 d-flex flex-column justify-content-center align-items-center bg-img-banner-support p-5 m-0">
+                    <img class="jaxx-navbar-brand mb-1 mt-5 animated fadeInUp" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
+                    <h1 class="section-title text-light mt-0 animated fadeInDown">Help Guidelines</h1>
+                </div>
+            </div><!-- /header -->
+            <div role="main" class="ui-content p-0 border-0 min-100">
+                <div class="container-fluid bg-dark bg-img-downloads">
+                    <div class="row p-4">                            
+<!--
+                        <div class="col-lg-12 border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 shadow py-3 my-3">
+                                        <h2 class="page-title">01</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                       <p class="x-bold orange text-uppercase my-2">01</p>
+                                       <h2 class="text-uppercase x-bold font-italic">Check out our <a href="#faq"><span class="orange">FAQ</span></a> page</h2>
+                                        <p class="border-top pt-2">The aim of the <span class="orange font-weight-bold">Jaxx Liberty</span> User Success Team is here to help our customers under all circumstances. Since most user issues are common, please try to find an answer here first. Our Troubleshooter and FAQ pages are the perfect places to start.</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+-->
+                        <div class="col-lg-12 border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 shadow py-3 my-3">
+                                        <h2 class="page-title">01</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                       <p class="x-bold orange text-uppercase mb-2">01</p>
+                                        <h2 class="font-italic">Go through the basics</h2>
+                                        <p class="border-top pt-2">Did you quit and reopen Jaxx Liberty?  Did you restart your device? Is there a problem with your internet connection? Do you have the most recent version of Jaxx Liberty? These are some of the basic questions we'll ask you once you submit a ticket. You can take this first step ahead of us.</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-12 border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 py-3 my-3 shadow">
+                                        <h2 class="page-title">02</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                       <p class="x-bold orange text-uppercase mb-2">02</p>
+                                       <h2 class="font-italic">Check out our <a href="#faq" data-transition="none"><span class="orange">FAQ</span></a> page before contacting us</h2>
+                                       <p class="border-top pt-2">The aim of the Jaxx Liberty User Success Team is to help our customers under all circumstances, but most user issues are common. It's likely your question has been asked by others. Please try to find an answer here before contacting us. Our <a href="#faq" data-transition="none"><span class="orange font-weight-bold">FAQ</span></a> page is the perfect place to start your support journey.</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-12 border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 py-3 my-3 shadow">
+                                        <h2 class="page-title">03</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                        <p class="x-bold orange text-uppercase mb-2">03</p>
+                                        <h2 class="font-italic">Being brief is the key</h2>
+                                        <p class="border-top pt-2">If you need to submit a ticket in our support "Need Help?" widget, be as brief and specific as you can. Write in bullet points, focus on key data, and leave out irrelevant information.</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-12 border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 py-3 my-3 shadow">
+                                        <h2 class="page-title">04</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                        <p class="x-bold orange text-uppercase mb-2">04</p>
+                                        <h2 class="font-italic">Be detailed</h2>
+                                        <p class="border-top pt-2">Be brief, but provide us with as many details as possible: your OS, version, platform, etc. Sending this information in advance can drastically decrease the time needed to isolate the issue. Also let us know all the steps that you've tried.</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-12 border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 py-3 my-3 shadow">
+                                        <h2 class="page-title">05</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                        <p class="x-bold orange text-uppercase mb-2">05</p>
+                                        <h2 class="x-bold font-italic">Only submit one ticket</h2>
+                                        <p class="border-top pt-2">Submitting more tickets will not get our attention faster. The same goes for additional updates within the same ticket. In fact, by sending another message to our User Success Team, you are “updating” your ticket, which puts it back at the end of the queue. Be patient; we'll solve your issue.</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-12 border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 py-3 my-3 shadow">
+                                        <h2 class="page-title">06</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                       <p class="x-bold orange text-uppercase mb-2">06</p>
+                                        <h2 class="x-bold font-italic">Be nice</h2>
+                                        <p class="border-top pt-2">Please take a deep breath before contacting us. We understand the crypto world can be stressful. Our team is composed of dedicated and knowledgable professionals that do their best to help you as quickly as possible. Be kind and we'll help solve the problem.</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-12 border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 py-3 my-3 shadow">
+                                        <h2 class="page-title">07</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                       <p class="x-bold orange text-uppercase mb-2">07</p>
+                                        <h2 class="x-bold font-italic">Thank you very much!</h2>
+                                        <p class="border-top pt-2">We hope that together we can make the <span class="orange font-weight-bold">Jaxx Liberty</span> experience even more comfortable for you. <span class="d-table text-muted text-uppercase font-italic py-2">- Your Jaxx Liberty User Success Team</span></p>
+                                   </div>
+                               </div>
+                           </div>
+                        </div><!-- /end col -->
+                    </div><!-- / end row -->
+                </div>
+            </div><!-- /content-->
+            <!--footer-->
+            <div data-role="footer" class="row d-flex flex-wrap bg-orange multidevice-outline text-light pt-3 min-25 border-0">
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#home"><p class="border-bottom pb-3 font-weight-bold skew">Support Home</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#helpguidelines"><p class="border-bottom pb-3 font-weight-bold skew">Help Guidelines</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#faq"><p class="border-bottom pb-3 font-weight-bold skew">FAQ</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#tutorials"><p class="border-bottom pb-3 font-weight-bold skew">Tutorials</p></a>
+                </div>
+            </div>
+            <div class="row d-flex copyright">
+                <div class="col-sm-12 d-flex justify-content-center text-center pb-3 pt-0 navy">
+                    <p class="font-weight-bold mb-0"><a class="font-weight-bold" href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Support_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made with love in Canada</p>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+        
+        <!-- Page 3: FAQ -->
+        
+        <div data-role="page" id="faq">
+            <div data-role="header">
+                 <div class="jumbotron jumbotron-fluid min-50 d-flex flex-column justify-content-center align-items-center bg-img-banner-support p-5 m-0">
+                    <img class="jaxx-navbar-brand mb-1 mt-5" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
+                    <h1 class="section-title text-light mt-0 mb-2">JAXX FAQ</h1>
+                    <ul class="w-100" data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Search..." data-inset="true">
+                        <li><a href="#one">My wallet keeps initializing</a></li>
+                        <li><a href="#one">Freezing</a></li>
+                        <li><a href="#one">Stuck</a></li>
+                        <li><a href="#one">assets</a></li>
+                        <li><a href="#two">I forgot my pin. How do I reset it?</a></li>
+                        <li><a href="#two">reset</a></li>
+                        <li><a href="#">download</a></li>
+                        <li><a href="#helpguidelines">Help guidelines</a></li>
+                        <li><a href="#helpguidelines">Help</a></li>
+                        <li><a href="#">Orange</a></li>
+                    </ul>
+                </div>
+            </div><!-- /header -->
+            <div role="main" class="ui-content p-0">
+                <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-img-downloads">
+                    <div class="row p-4 w-100">
+                        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start border bg-light bg-dots p-4">
+                            <h2 class="border-bottom pb-3 font-italic w-100">Welcome to the Jaxx Liberty <span class="orange">FAQ</span> page.</h2>
+                            <p>Most of our user issues are common and it's likely your question has been asked by others and already answered. Scroll through our most asked questions to see if you can find an anwser before contacting us. This is the perfect place to start your support journey.</p>
+                        </div>
+                        <!--questions grid start-->
+                        <div class="col-lg-6 col-md-6 d-flex flex-column justify-content-center align-items-center border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 py-3 my-3 shadow">
+                                        <h2 class="font-weight-light m-0">01</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                       <a href="#one" data-transition="none">
+<!--                                        <p class="x-bold orange text-uppercase mb-0">01</p>-->
+                                        <h4 class="font-weight-light orange">My Jaxx Liberty wallet is stuck on initializing, what next?</h4>
+                                        </a>
+                                   </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 border bg-light bg-dots p-4">
+                            <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 py-3 my-3 shadow">
+                                        <h2 class="font-weight-light m-0">02</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                        <a href="#two" data-transition="none">
+<!--                                        <p class="x-bold orange text-uppercase mb-0">02</p>-->
+                                        <h4 class="font-weight-light orange">How do I reset my Jaxx Liberty wallet?</h4>
+                                        </a>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 py-3 my-3 shadow">
+<!--                                       <img src="/img/Jaxx_Primary_Icon.png" class="jaxx-navbar-brand absolute z--1" alt="">-->
+                                        <h2 class="font-weight-light m-0">03</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                        <a href="#three" data-transition="none">
+<!--                                        <p class="x-bold orange text-uppercase mb-0">03</p>-->
+                                        <h4 class="font-weight-light orange">I sent digital assets to Jaxx and they haven't shown up. What's next?</h4>
+                                        </a>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 py-3 my-3 shadow">
+                                        <h2 class="font-weight-light m-0">04</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                        <a href="#four" data-transition="none">
+<!--                                        <p class="x-bold orange text-uppercase mb-0">04</p>-->
+                                        <h4 class="font-weight-light orange">My balance is not correct.</h4>
+                                        </a>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 py-3 my-3 shadow">
+                                        <h2 class="font-weight-light m-0">05</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                        <a href="#five">
+<!--                                        <p class="x-bold orange text-uppercase mb-0">05</p>-->
+                                        <h4 class="font-weight-light orange">I forgot my pin. How do I reset it?</h4>
+                                        </a>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                         <div class="col-lg-6 col-md-6 border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 py-3 my-3 shadow">
+                                        <h2 class="font-weight-light m-0">06</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                        <a href="#six">
+                                        <h4 class="font-weight-light orange">How do I Use Shapeshift?</h4>
+                                        </a>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 py-3 my-3 shadow">
+                                        <h2 class="font-weight-light m-0">07</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                        <a href="#seven">
+                                        <h4 class="font-weight-light orange">How do I pair or restore my wallet?</h4>
+                                        </a>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 border bg-light bg-dots p-4">
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center bg-dark multidevice-outline text-light w-100 py-3 my-3 shadow">
+                                        <h2 class="font-weight-light m-0">08</h2>
+                                   </div>
+                                   <div class="col-sm-9 d-flex flex-column justify-content-center align-items-start">
+                                        <a href="#eight">
+                                        <h4 class="font-weight-light orange">How do I get my 12 word backup phrase? </h4>
+                                        </a>
+                                   </div>
+                               </div>
+                           </div>
+                        </div><!-- /end col -->
+                        
+                        <!-- /end col -->
+                        <!-- /end col -->
+                    </div><!-- /end row -->
+                </div><!-- /end cont -->
+            </div><!-- /end page -->
+            <!--footer-->
+            <div data-role="footer" class="row d-flex flex-wrap bg-orange multidevice-outline text-light pt-3 px-3 min-25 border-0">
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#home"><p class="border-bottom pb-3 font-weight-bold skew">Support Home</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#helpguidelines"><p class="border-bottom pb-3 font-weight-bold skew">Help Guidelines</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#faq"><p class="border-bottom pb-3 font-weight-bold skew">FAQ</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#tutorials"><p class="border-bottom pb-3 font-weight-bold skew">Tutorials</p></a>
+                </div>
+            </div>
+            <div class="row d-flex copyright">
+                <div class="col-sm-12 d-flex justify-content-center text-center pb-3 pt-0 navy">
+                    <p class="font-weight-bold mb-0"><a class="font-weight-bold" href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Support_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made with love in Canada</p>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+        
+        <!-- Solution pages -->
+        
+        <!-- One -->
+        
+        <div data-role="page" id="one">
+            <div data-role="header">
+                <div class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center bg-img-banner-support p-5 m-0">
+                    <img class="jaxx-navbar-brand mt-5 mb-1" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
+                    <h1 class="section-title text-light mt-0">FAQ</h1>
+                </div>
+            </div><!-- /header -->
+            <div role="main" class="ui-content p-0 mb-0">
+                <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-img-downloads">
+                    <div class="row p-4 w-100">
+                        <div class="col-lg-12 border bg-white bg-dots p-4">
+                            <p class="x-bold orange text-uppercase mb-2">01</p>
+                            <h2 class="text-uppercase x-bold font-italic">My wallet keeps initializing</h2>
+                               <hr>
+                                <div class="container-fluid">
+                                   <div class="row">
+                                       <div class="col-xl-3 col-lg-6 d-flex flex-column justify-content-start align-items-start bg-dark multidevice-outline text-light w-100 p-5 my-3 shadow">
+                                          <h5 class="font-weight-light pb-3 mb-3 border-bottom w-100 bg-orange">1. Check your version</h5>
+                                           <h5 class="font-weight-light">Open Jaxx Liberty and click the hamburger menu icon in the top right corner: <span class="d-table py-2"><i class="fa fa-bars"></i></span> Scroll down to <span class="font-weight-bold">About</span> and check the current app version.</h5>
+                                       </div>
+                                       <div class="col-xl-3 col-lg-6 d-flex flex-column justify-content-start align-items-start bg-light multidevice-outline w-100 p-5 my-3 shadow">
+                                            <h5 class="font-weight-light pb-3 mb-3 border-bottom w-100">Are you using version v.1.3.18?</h5>
+                                            <h5 class="font-weight-light pb-3 mb-3 border-bottom">If not, click <a class="font-weight-bold" href="/downloads.html" rel="external"><span class="orange">HERE</span></a> to download the latest version. This usually solves the issue.</h5>
+                                             <div class="row d-flex align-self-start pl-3">
+                                                <div class="col-xs-6 mt-2">
+                                                    <a class="btn btn-dark text-light mr-2" href="#success" data-transition="none">Success!</a>
+                                                </div>
+                                                <div class="col-xs-6 mt-2">
+                                                    <a class="btn btn-dark text-light" href="#one-2" data-transition="none">I Still Need Help</a>
+                                                </div>
+                                            </div>
+                                       </div>
+                                       <div class="col-xl-3 col-lg-6 d-flex flex-column justify-content-start align-items-start bg-dark multidevice-outline text-light w-100 p-5 my-3 shadow">
+                                            <h5 class="font-weight-light pb-3 mb-3 border-bottom w-100">Are you using configuration v3.131?</h5>
+                                            <h5 class="font-weight-light pb-3 mb-2 border-bottom">If not, connect to a strong internet signal, force restart the app, reboot, and check the configuration again.  If it's less than v3.131, or if it says <span class="font-weight-bold">"Pending"</span>, restart the app again.</h5>
+                                            <div class="row d-flex align-self-start pl-3">
+                                               <div class="col-xs-6 mt-2">
+                                                    <a class="btn btn-light text-dark mr-2" href="#success" data-transition="none">Success!</a>
+                                                </div>
+                                                <div class="col-xs-6 mt-2">
+                                                    <a class="btn btn-light text-dark" href="#one-2" data-transition="none">I Still Need Help</a>
+                                                </div>
+                                            </div>
+                                       </div>
+                                       <div class="col-xl-3 col-lg-6 d-flex flex-column justify-content-start align-items-start bg-light multidevice-outline w-100 p-5 my-3 shadow">
+                                           <h5 class="font-weight-light pb-3 mb-3 border-bottom w-100">Are you sending mining rewards to your Jaxx Wallet?</h5>
+                                            <h5 class="font-weight-light pb-3 mb-3 border-bottom">Please be aware that mining may cause problems with Jaxx. Get more info <a href="https://support.decentral.ca/hc/en-us/articles/227313008-Do-not-send-mining-rewards-to-your-Jaxx-Wallet" target="_blank" rel="external"><span class="orange font-weight-bold">HERE.</span></a></h5>
+                                            <div class="row d-flex align-self-start pl-3">
+                                                <a class="btn btn-dark text-light" href="#one-2" data-transition="none">I Still Need Help</a>
+                                            </div>
+                                       </div>
+                                   </div>
+                                </div><!--/end nest container-->
+                        </div><!--/end col-->
+                    </div>
+                </div>
+            </div>
+            <!--footer-->
+            <div data-role="footer" class="row d-flex flex-wrap bg-orange multidevice-outline text-light pt-3 px-3 min-25 border-0">
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#home"><p class="border-bottom pb-3 font-weight-bold skew">Support Home</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#helpguidelines"><p class="border-bottom pb-3 font-weight-bold skew">Help Guidelines</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#faq"><p class="border-bottom pb-3 font-weight-bold skew">FAQ</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#tutorials"><p class="border-bottom pb-3 font-weight-bold skew">Tutorials</p></a>
+                </div>
+            </div>
+            <div class="row d-flex copyright">
+                <div class="col-sm-12 d-flex justify-content-center text-center pb-3 pt-0 navy">
+                    <p class="font-weight-bold mb-0"><a class="font-weight-bold" href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Support_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made with love in Canada</p>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+        
+        <!-- One-2 -->
+        
+        <div data-role="page" id="one-2">
+            <div data-role="header">
+                <div class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center bg-img-banner-support p-5 m-0">
+                    <img class="jaxx-navbar-brand mt-5 mb-1" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
+                    <h1 class="section-title text-light mt-0">FAQ</h1>
+                </div>
+            </div><!-- /header -->
+            <div role="main" class="ui-content p-0 mb-0">
+                <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-img-downloads">
+                    <div class="row p-4 w-100">
+                        <div class="col-lg-12 border bg-light bg-dots p-4">
+                            <p class="x-bold orange text-uppercase mb-2">01-2</p>
+                            <h2 class="text-uppercase x-bold font-italic">My Wallet Keeps Initializing</h2>
+                            <p class="border-top border-bottom py-3">Is your device behind a strong firewall? Are you using a VPN/TOR? If YES, disable/deactivate the VPN and try again.</p>
+                            <a class="btn btn-lg btn-outline-secondary" href="#success" data-transition="none">Success!</a>
+                            <a class="btn btn-lg btn-outline-secondary" href="#contact" data-transition="none">I still need help</a>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/end content-->
+            <!--footer-->
+            <div data-role="footer" class="row d-flex flex-wrap bg-orange multidevice-outline text-light pt-3 px-3 min-25 border-0">
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#home"><p class="border-bottom pb-3 font-weight-bold skew">Support Home</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#helpguidelines"><p class="border-bottom pb-3 font-weight-bold skew">Help Guidelines</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#faq"><p class="border-bottom pb-3 font-weight-bold skew">FAQ</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#tutorials"><p class="border-bottom pb-3 font-weight-bold skew">Tutorials</p></a>
+                </div>
+            </div>
+            <div class="row d-flex copyright">
+                <div class="col-sm-12 d-flex justify-content-center text-center pb-3 pt-0 navy">
+                    <p class="font-weight-bold mb-0"><a class="font-weight-bold" href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Support_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made with love in Canada</p>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+        
+        <!-- Two -->
+        
+        <div data-role="page" id="two">
+            <div data-role="header">
+                <div class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center bg-img-banner-support p-5 m-0">
+                    <img class="jaxx-navbar-brand mt-5 mb-1" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
+                    <h1 class="section-title text-light mt-0">FAQ</h1>
+                </div>
+            </div><!-- /header -->
+            <div role="main" class="ui-content p-0">
+                <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-img-downloads">
+                    <div class="row p-4 w-100">
+                        <div class="col-lg-12 border bg-light bg-dots p-4">
+                            <p class="x-bold orange text-uppercase mb-2">02</p>
+                            <h2 class="text-uppercase x-bold font-italic">How do I reset my Jaxx Liberty wallet?</h2>
+                            <p class="border-top border-bottom py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium aspernatur expedita eaque quae, possimus beatae quidem, sapiente assumenda non cupiditate deleniti quam iusto alias. Dolorem veritatis autem ipsa adipisci aperiam?</p>
+                            <a class="btn btn-lg btn-outline-secondary" href="#success" data-transition="none">Success!</a>
+                            <a class="btn btn-lg btn-outline-secondary" href="#contact" data-transition="none">I still need help</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--footer-->
+            <div data-role="footer" class="row d-flex flex-wrap bg-orange multidevice-outline text-light pt-3 min-25 border-0">
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#home"><p class="border-bottom pb-3 font-weight-bold skew">Support Home</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#helpguidelines"><p class="border-bottom pb-3 font-weight-bold skew">Help Guidelines</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#faq"><p class="border-bottom pb-3 font-weight-bold skew">FAQ</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#tutorials"><p class="border-bottom pb-3 font-weight-bold skew">Tutorials</p></a>
+                </div>
+            </div>
+            <div class="row d-flex copyright">
+                <div class="col-sm-12 d-flex justify-content-center text-center pb-3 pt-0 navy">
+                    <p class="font-weight-bold mb-0"><a class="font-weight-bold" href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Support_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made with love in Canada</p>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+        
+        <!-- five -->
+        
+        <div data-role="page" id="five">
+            <div data-role="header">
+                <div class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center bg-img-banner-support p-5 m-0">
+                    <img class="jaxx-navbar-brand mt-5 mb-1" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
+                    <h1 class="section-title text-light mt-0">FAQ</h1>
+                </div>
+            </div><!-- /header -->
+            <div role="main" class="ui-content p-0">
+                <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-img-downloads">
+                    <div class="row p-4 w-100">
+                        <div class="col-lg-12 border bg-light bg-dots p-4">
+                            <p class="x-bold orange text-uppercase mb-2">02</p>
+                            <h2 class="text-uppercase x-bold font-italic">I forgot my pin. How do I reset it?</h2>
+                            <p class="border-top border-bottom py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium aspernatur expedita eaque quae, possimus beatae quidem, sapiente assumenda non cupiditate deleniti quam iusto alias. Dolorem veritatis autem ipsa adipisci aperiam?</p>
+                            <a class="btn btn-lg btn-outline-secondary" href="#success" data-transition="none">Success!</a>
+                            <a class="btn btn-lg btn-outline-secondary" href="#contact" data-transition="none">I still need help</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--footer-->
+            <div data-role="footer" class="row d-flex flex-wrap bg-orange multidevice-outline text-light pt-3 min-25 border-0">
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#home"><p class="border-bottom pb-3 font-weight-bold skew">Support Home</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#helpguidelines"><p class="border-bottom pb-3 font-weight-bold skew">Help Guidelines</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#faq"><p class="border-bottom pb-3 font-weight-bold skew">FAQ</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#tutorials"><p class="border-bottom pb-3 font-weight-bold skew">Tutorials</p></a>
+                </div>
+            </div>
+            <div class="row d-flex copyright">
+                <div class="col-sm-12 d-flex justify-content-center text-center pb-3 pt-0 navy">
+                    <p class="font-weight-bold mb-0"><a class="font-weight-bold" href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Support_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made with love in Canada</p>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+        
+        <!--success page -->
+        
+        <div data-role="page" id="success">
+            <div data-role="header">
+                <div class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center bg-img-banner-support p-5 m-0">
+                    <img class="jaxx-navbar-brand mt-5 mb-1" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
+                    <h1 class="section-title text-light mt-0">FAQ</h1>
+                </div>
+            </div><!-- /header -->
+            <div role="main" class="ui-content p-0">
+                <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-img-downloads">
+                    <div class="row p-4 w-100">
+                        <div class="col-lg-12 border bg-light bg-dots p-4">
+                            <h2 class="text-uppercase x-bold font-italic">Success!</h2>
+                            <p class="border-top border-bottom py-3">Great, good work solving the problem!</p>
+                            <a class="btn btn-lg btn-outline-secondary" href="#faq" data-transition="none">FAQ</a>
+                            <a class="btn btn-lg btn-outline-secondary" href="#home" data-transition="none">Support Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--footer-->
+            <div data-role="footer" class="row d-flex flex-wrap bg-orange multidevice-outline text-light pt-3 min-25 border-0">
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#home"><p class="border-bottom pb-3 font-weight-bold skew">Support Home</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#helpguidelines"><p class="border-bottom pb-3 font-weight-bold skew">Help Guidelines</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#faq"><p class="border-bottom pb-3 font-weight-bold skew">FAQ</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#tutorials"><p class="border-bottom pb-3 font-weight-bold skew">Tutorials</p></a>
+                </div>
+            </div>
+            <div class="row d-flex copyright">
+                <div class="col-sm-12 d-flex justify-content-center text-center pb-3 pt-0 navy">
+                    <p class="font-weight-bold mb-0"><a class="font-weight-bold" href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Support_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made with love in Canada</p>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+        
+        <!--failure /contact page -->
+        
+        <div data-role="page" id="contact">
+            <div data-role="header">
+                <div class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center bg-img-banner-support p-5 m-0">
+                    <img class="jaxx-navbar-brand mt-5 mb-1" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
+                    <h1 class="section-title text-light mt-0">FAQ</h1>
+                </div>
+            </div><!-- /header -->
+            <div role="main" class="ui-content p-0">
+                <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-img-downloads">
+                    <div class="row p-4 w-100">
+                        <div class="col-lg-12 border bg-light bg-dots p-4">
+                            <h2 class="text-uppercase x-bold font-italic">I still need help</h2>
+                            <p class="border-top border-bottom py-3">We're sorry you're still having trouble. Please submit a ticket by clicking our "Need Help?" widget in the bottom right of your screen, click "Get in touch", and provide us with detailed information about your issue.</p>
+                            <a class="btn btn-lg btn-outline-secondary" href="#faq" data-transition="none">FAQ</a>
+                            <a class="btn btn-lg btn-outline-secondary" href="#home" data-transition="none">Support Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--footer-->
+            <div data-role="footer" class="row d-flex flex-wrap bg-orange multidevice-outline text-light pt-3 min-25 border-0">
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#home"><p class="border-bottom pb-3 font-weight-bold skew">Support Home</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#helpguidelines"><p class="border-bottom pb-3 font-weight-bold skew">Help Guidelines</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#faq"><p class="border-bottom pb-3 font-weight-bold skew">FAQ</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#tutorials"><p class="border-bottom pb-3 font-weight-bold skew">Tutorials</p></a>
+                </div>
+            </div>
+            <div class="row d-flex copyright">
+                <div class="col-sm-12 d-flex justify-content-center text-center pb-3 pt-0 navy">
+                    <p class="font-weight-bold mb-0"><a class="font-weight-bold" href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Support_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made with love in Canada</p>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+        <!-- Page 3 Tutorials Page -->
+        
+        <div data-role="page" id="tutorials">
+            <div data-role="header">
+                <div class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center bg-img-banner-support p-5 m-0">
+                    <img class="jaxx-navbar-brand mt-5 mb-1" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
+                    <h1 class="section-title text-light mt-0">Tutorials</h1>
+                </div>
+            </div><!-- /header -->
+            <div role="main" class="ui-content p-0">
+                <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-img-downloads p-5">
+                    <div class="row w-100">
+                        <div class="col-sm-12 pb-3">
+                            <h2 class="section-title pb-3 border-bottom">Video Tutorials</h2>
+                            <p>Peruse our growing library of <span class="orange font-weight-bold">Jaxx Liberty</span> how-to video tutorials. Click the menu in the top left of the video to find more tutorials in our playlist.</p>
+                        </div>
+                        <div class="col-sm-12">
+                            <iframe id="tutorials" class="shadow-lg" src="https://www.youtube.com/embed/?listType=playlist&list=PLdba36-UYQPdxfhXyxvRs8AYUUDIb5jOX" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--footer-->
+            <div data-role="footer" class="row d-flex flex-wrap bg-orange multidevice-outline text-light pt-3 min-25 border-0">
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#home"><p class="border-bottom pb-3 font-weight-bold skew">Support Home</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#helpguidelines"><p class="border-bottom pb-3 font-weight-bold skew">Help Guidelines</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#faq"><p class="border-bottom pb-3 font-weight-bold skew">FAQ</p></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center align-items-center p-3">
+                    <a class="w-75" href="#tutorials"><p class="border-bottom pb-3 font-weight-bold skew">Tutorials</p></a>
+                </div>
+            </div>
+            <div class="row d-flex copyright">
+                <div class="col-sm-12 d-flex justify-content-center text-center pb-3 pt-0 navy">
+                    <p class="font-weight-bold mb-0"><a class="font-weight-bold" href="https://decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('decentral.ca', 'Support_Footer')">&copy; Decentral Inc.</a> <img class="footer-leaf mx-1" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made with love in Canada</p>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+        <!-- Page 4 Hot Topics -->
+        <div data-role="page" id="hottopics">
+            <div data-role="header">
+                <div class="jumbotron jumbotron-fluid min-25 d-flex justify-content-center align-items-center mt-5 p-5 m-0 p-5">
+                    <h1 class="text-uppercase font-italic">FAQ</h1>
+                </div>
+            </div><!-- /header -->
+            <div role="main" class="ui-content p-0 min-100">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis sequi incidunt perferendis vitae, impedit excepturi unde eligendi cupiditate, eius officia commodi nulla nam sed, sit maxime natus! Aut libero, iusto.</p>
+                            <p>View internal page called <a href="#home">Home</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h4>Page Footer</h4>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+        
+        
+        <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+        <!--cookies-->
+        <script src="/js/cookieconsent.min.js"></script>
+        <!--scrollmagic-->
+        <script src="/js/scrollmagic/minified/ScrollMagic.min.js"></script>
+        <script src="/js/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
+        <!--gsap-->
+        <script src="/js/gsap/TweenMax.min.js"></script>
+        <!--bootstrap-->
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/plugins.js"></script>
+        <script src="/js/main.min.js"></script>
+        
+        <!-- zendesk widget styles-->
+        
+        <script type="text/javascript">
+        window.zESettings = {
+          webWidget: {
+              launcher: {
+                      label: {
+                        'en-US': 'Need help?',
+                        'fr': 'Besoin d\'aide?'
+                      }
+                    },
+              helpCenter: {
+              title: {
+                'en-US': 'Jaxx Liberty Support',
+                'fr': 'Recherche d\'aide'
+              },
+                  messageButton: {'*': 'Get in touch'
+              }
+            },
+            color: {
+              theme: '#fff',
+              launcher: '#264277',
+              launcherText: '#fff',
+              button: '#ff6902',
+              resultLists: '#ff6902',
+              header: '#ff6902',
+              title: '#fff',
+              articleLinks: '#ff6902'
+            }
+          }
+        };
+        </script>
+       
+        <!-- Global site tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85893600-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-85893600-1');
+            
+        </script>
+        <!-- Google Analytics -->
+        <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            
+            ga('create', 'UA-85893600-1', 'auto');
+            ga('send', 'pageview');
+            
+            function googleAnalyticsTrigger(category, label) {
+                ga('send', {
+                    hitType: 'event',
+                    eventCategory: category,
+                    eventAction: 'download',
+                    eventLabel: label
+                });
+            }
+            
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,9 @@
+[
+    { 
+        "ios":{"version": "1.2.4"},
+        "android":{"version": "1.2.4"},
+        "chrome":{"version": "1.2.4"},
+        "default": {"version":"1.2.4"}
+    }
+]
+

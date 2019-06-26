@@ -1,0 +1,8 @@
+[
+    {
+        "criticality": "important",
+	"title": "Dash, LTC, ZEC, Doge Wallet Issue",
+        "version": "6",
+        "description": "<p>We are currently experiencing issues with our third-party services that are affecting the initialization of Dash, Litecoin, Zcash and Doge wallets. This issue also affects the retrieval of balances and transaction histories. We are working on resolving this as soon as possible and apologize for this inconvenience.</p>"
+	}
+]

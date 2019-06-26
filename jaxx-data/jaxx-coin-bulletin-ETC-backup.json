@@ -1,0 +1,21 @@
+[
+
+  {
+
+    "ETC": {
+
+      "criticality": "important",
+
+      "version": "1.2.25",
+
+      "menu_title": "Intermittent issues with ETC",
+
+      "title": "Intermittent issues with the ETC Wallet",
+
+      "description": "We are seeing intermittent issues with the Jaxx ETC Wallets where users are not able to initialize their wallets or send transactions. Our devs are looking into this, we apologize for the inconvenience!",
+
+      "date": "8/17/2017"
+    }
+  }
+
+]

@@ -1,0 +1,21 @@
+[
+
+  {
+
+    "BTC": {
+
+      "criticality": "important",
+
+      "version": "1.2.23",
+
+      "menu_title": "BTC August 1 HF",
+
+      "title": "Bitcoin (BTC) August 1 Hard Fork",
+
+      "description": "Due to the potential instability of the Bitcoin network we have temporarily disabled the BTC token in Jaxx for the moment and will bring it back online once our testing shows that the network is stable. This affects wallet initialization, Balance Updating and ability to send BTC transactions from Jaxx. Thank you for your understanding!",
+
+      "date": "8/1/2017"
+    }
+  }
+
+]
