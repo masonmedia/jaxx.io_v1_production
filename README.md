@@ -1,6 +1,6 @@
 # **Jaxx Revolutions**
 
-A repo for the first production version of jaxx.io, the home website of Jaxx Liberty is a blockchain/cryptocurrency wallet app made by Decentral Inc., a company founded by Anthony Di Iorio.
+A repo for the first production version of jaxx.io, the home website of Jaxx Liberty, a blockchain/cryptocurrency wallet app made by Decentral Inc., a company founded by Anthony Di Iorio.
 
 Unlike [Jaxx_Revolutions_1](https://github.com/masonmedia/jaxx_revolutions_1), my original, animated version of the same site, the production version was redacted, removing homepage banner animation which included: a an animated SVG stroke-drawing effect of the Jaxx Liberty logo (using vivus.js), which then was filled with the logo's original colors, and then individual letters exploded out of the screen, along with a slower general progression between entrances/exits of the timeline elements.
 
